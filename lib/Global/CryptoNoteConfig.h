@@ -165,8 +165,8 @@ const uint32_t GOVERNANCE_HEIGHT_END                         = 4000000;
 
 } // namespace parameters
 
-const char     CRYPTONOTE_NAME[]                             = "Qwertycoin";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001ffffffffffff07029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101eddf1e272c1ffa70f49ca4eaad918578bc3b59689e53e48a1bc670fbdea08478";
+const char     CRYPTONOTE_NAME[]                             = "cekkoin";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 const char     DNS_CHECKPOINTS_HOST[]                        = "checkpoints.qwertycoin.org";
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
