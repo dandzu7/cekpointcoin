@@ -115,12 +115,12 @@ const uint64_t addressPrefix = 0x14820c;
 /*!
     Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC
 */
-const std::string ticker = "QWC";
+const std::string ticker = "CEK";
 
 /*!
     The name of your deamon
 */
-const std::string daemonName = "qwertycoind";
+const std::string daemonName = "cekoin";
 
 /*!
     The name to call this wallet
