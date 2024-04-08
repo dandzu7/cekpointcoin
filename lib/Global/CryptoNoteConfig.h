@@ -159,14 +159,14 @@ const char     CRYPTONOTE_BLOCKCHAIN_INDICES_FILENAME[]      = "blockchainindice
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
 
 /* Governance Fee and range // The Qwertycoin Foundation */
-const uint16_t GOVERNANCE_PERCENT_FEE                        = 10; // 10 percent of base block reward
+const uint16_t GOVERNANCE_PERCENT_FEE                        = 5; // 10 percent of base block reward
 const uint32_t GOVERNANCE_HEIGHT_START                       = UPGRADE_HEIGHT_V6;
 const uint32_t GOVERNANCE_HEIGHT_END                         = 4000000;
 
 } // namespace parameters
 
 const char     CRYPTONOTE_NAME[]                             = "ekoin";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001ffffffffffff07029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121013c63be7f741580fc9442be29677981fa5f6d579d98820b62e0e83faa399a7a4c";
 const char     DNS_CHECKPOINTS_HOST[]                        = "checkpoints.qwertycoin.org";
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
