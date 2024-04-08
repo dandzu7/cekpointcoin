@@ -233,8 +233,8 @@ const bool     P2P_MESSAGES                                  =  true;
 const uint16_t P2P_MESSAGES_CHAR_COUNT                       =  160;
 
 /* Governance Fee Wallets // The Qwertycoin Foundation */
-const std::string GOVERNANCE_WALLET_ADDRESS                  = "QWC1W9dWEf955q711Qn2fsLbw8fDW1AixUqZQiMCcHhkB59CivmxLPdXXDhkL2yfJkMBKiVWg7hgT3dP5RC5r8Q15kCNADeJ7x";
-const std::string GOVERNANCE_VIEW_SECRET_KEY                 = "d6c03cec7de78fe30895bf19edeb5c24529c3d2e40d00b300fa2336c6fdafe0d";
+const std::string GOVERNANCE_WALLET_ADDRESS                  = "QWC1U1TF8BRKC6zbzQaG6Jb8a4T8HS7bEak3Kefkb5tjcyffgfSyKK8K6aqvau3VG6QBCS1REEARy4GTsJQhERQ78Ym1XEXmcC";
+const std::string GOVERNANCE_VIEW_SECRET_KEY                 = "15cdd7a6b24672147167e39226bc4963f0108ef611d07a9707c54104e00b800b";
 
 const char *const SEED_NODES[] = {
     "139.180.188.152:8196",
