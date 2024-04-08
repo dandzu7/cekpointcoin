@@ -165,7 +165,7 @@ const uint32_t GOVERNANCE_HEIGHT_END                         = 4000000;
 
 } // namespace parameters
 
-const char     CRYPTONOTE_NAME[]                             = "cekkoin";
+const char     CRYPTONOTE_NAME[]                             = "ekoin";
 const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 const char     DNS_CHECKPOINTS_HOST[]                        = "checkpoints.qwertycoin.org";
 
