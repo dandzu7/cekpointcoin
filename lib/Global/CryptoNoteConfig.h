@@ -33,11 +33,11 @@ namespace CryptoNote {
 
 namespace parameters {
 
-const uint64_t DIFFICULTY_TARGET                              = 90; // seconds
+const uint64_t DIFFICULTY_TARGET                              = 60; // seconds
 const uint64_t CRYPTONOTE_MAX_BLOCK_NUMBER                    = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                 = 500000000;
 const size_t   CRYPTONOTE_MAX_TX_SIZE                         = 1000000000;
-const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX        = 0x14820c;
+const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX        = 0x11ce1;
 const size_t   CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW           = 60;
 const size_t   CRYPTONOTE_TX_SPENDABLE_AGE                    = 10;
 const size_t   CRYPTONOTE_SAFE_TX_SPENDABLE_AGE               = 1;
@@ -167,7 +167,7 @@ const uint32_t GOVERNANCE_HEIGHT_END                         = 4000000;
 
 const char     CRYPTONOTE_NAME[]                             = "ekoin";
 const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001ffffffffffff07029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121013c63be7f741580fc9442be29677981fa5f6d579d98820b62e0e83faa399a7a4c";
-const char     DNS_CHECKPOINTS_HOST[]                        = "checkpoints.qwertycoin.org";
+const char     DNS_CHECKPOINTS_HOST[]                        = "";
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
@@ -237,8 +237,8 @@ const std::string GOVERNANCE_WALLET_ADDRESS                  = "QWC1U1TF8BRKC6zb
 const std::string GOVERNANCE_VIEW_SECRET_KEY                 = "15cdd7a6b24672147167e39226bc4963f0108ef611d07a9707c54104e00b800b";
 
 const char *const SEED_NODES[] = {
-    "139.180.188.152:8196",
-    "103.210.69.102:8196"
+    "66.42.60.46:8196",
+    "139.180.184.63:8196"
              //E
 };
 
