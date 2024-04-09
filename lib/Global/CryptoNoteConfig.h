@@ -33,7 +33,7 @@ namespace CryptoNote {
 
 namespace parameters {
 
-const uint64_t DIFFICULTY_TARGET                              = 120; // seconds
+const uint64_t DIFFICULTY_TARGET                              = 90; // seconds
 const uint64_t CRYPTONOTE_MAX_BLOCK_NUMBER                    = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                 = 500000000;
 const size_t   CRYPTONOTE_MAX_TX_SIZE                         = 1000000000;
@@ -238,8 +238,8 @@ const std::string GOVERNANCE_VIEW_SECRET_KEY                 = "15cdd7a6b2467214
 
 const char *const SEED_NODES[] = {
     "139.180.188.152:8196",
-    "103.210.69.102:8196",
-    "103.210.69.46:8196"         //E
+    "103.210.69.102:8196"
+             //E
 };
 
 const char *const BANNED_NODES[] = {
